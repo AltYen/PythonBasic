@@ -36,6 +36,7 @@ def Check3x3(board):
 
 
 sys.stdin = open('correct.txt')
+#sys.stdin = open('incorrect.txt')
 board=[]
 for i in range(0,9):
     board.append(input())
